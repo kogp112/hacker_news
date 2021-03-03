@@ -13,7 +13,7 @@
     "coveragePathIgnorePatterns": [
       "./src/*/index.tsx",
       "./src/*.tsx",
-      "./dist/components/*/__test/index.test.js"
+      "./public/components/*/__test/index.test.js"
     ],
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "babel-jest",

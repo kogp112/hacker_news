@@ -7,12 +7,12 @@ module.exports = {
   ],
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public'),
     publicPath: '/'
   },
   stats: 'errors-only',
   devServer: {
-    contentBase: "dist",
+    contentBase: "public",
     compress: true,
     hot: true,
     host: "localhost",
