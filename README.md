@@ -3,6 +3,8 @@
 ## Overview
 This is sample application which it just shows hacker news data by using React.js and TypeScript.
 
+[Demo](http://hacker-news-0303.s3-website-ap-southeast-1.amazonaws.com/)
+
 ## Development
 :man_cook:
 | Tools | Version |
