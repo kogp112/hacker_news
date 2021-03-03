@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render news list 1`] = `
+<div
+  className="row"
+  onClick={[Function]}
+>
+  <p
+    className="index"
+  >
+     
+  </p>
+  <p
+    className="newstitle"
+  >
+    0
+      
+  </p>
+</div>
+`;

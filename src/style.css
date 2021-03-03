@@ -1,0 +1,159 @@
+.main {
+  width: 900px;
+  margin: auto;
+}
+
+.ul {
+  height: 500px;
+  width: 800px;
+  overflow-y: auto;
+  color: red;
+  margin: auto;
+  padding: 0;
+}
+
+.subtitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.7em;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  clear: both;
+  line-height: 40px;
+  color: darkslategray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.newstitle {
+  background-color: #ececec;
+  color: darkslategray;
+  width: 800px;
+  font-size: 1.2em;
+  border-radius: 3px;
+  padding: 3px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cardgroup {
+  margin: auto;
+  display: table;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+
+.index {
+  background-color: #fe4a29;
+  width: 8px;
+  height: 21px;
+  float: left;
+  margin: auto;
+  margin-right: 5px;
+  text-align: center;
+  padding: 3px;
+}
+
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3.5em;
+  color: darkslategray;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+  height: 100px;
+  margin: 0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #ececec;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card_0 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 235px;
+  height: 230px;
+  float: left;
+  margin-top: 10px;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.3em;
+  background-color: #f78888;
+  word-break: normal;
+  color:darkslategrey;
+  word-break: break-all;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card_1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 235px;
+  height: 230px;
+  float: left;
+  margin-top: 10px;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.3em;
+  background-color: #f3d250;
+  word-break: normal;
+  color:darkslategrey;
+  word-break: break-all;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card_2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 235px;
+  height: 230px;
+  float: left;
+  margin-top: 10px;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.3em;
+  background-color: #90ccf4;
+  word-break: normal;
+  color:darkslategrey;
+  word-break: break-all;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card_0:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  color: #fff;
+  background-color: #bf6b6b;
+}
+
+.card_1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  color: #fff;
+  background-color: cfb348;
+}
+
+.card_2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  color: #fff;
+  background-color: #699dbf;
+}
+
+.row:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: hand;
+}
+
+.title:hover {
+  cursor: hand;
+}
+
+.container {
+  padding: 2px 16px;
+}

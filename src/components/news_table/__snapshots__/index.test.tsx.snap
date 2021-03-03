@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render news table 1`] = `
+<div>
+  <div
+    className="cardgroup"
+  >
+    <div
+      className="card_0"
+    >
+      <div
+        onClick={[Function]}
+      >
+        <p
+          className="container"
+        />
+      </div>
+    </div>
+    <div
+      className="card_1"
+    >
+      <div
+        onClick={[Function]}
+      >
+        <p
+          className="container"
+        />
+      </div>
+    </div>
+    <div
+      className="card_2"
+    >
+      <div
+        onClick={[Function]}
+      >
+        <p
+          className="container"
+        />
+      </div>
+    </div>
+  </div>
+  <div>
+    <p
+      className="subtitle"
+    >
+      3 or less
+    </p>
+  </div>
+  <div
+    className="listarea"
+  >
+    <ul
+      className="ul"
+    />
+  </div>
+</div>
+`;

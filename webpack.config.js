@@ -20,7 +20,7 @@ module.exports = {
     publicPath: "/"
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".css", ".json"],
+    extensions: [".ts", ".tsx", ".js", ".json"],
   },
   module: {
     rules: [
@@ -29,6 +29,17 @@ module.exports = {
         use: [{ loader: "ts-loader" }],
         exclude: [path.resolve(__dirname, "node_modules")], 
       },
+      {
+        test: /\.css/,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: { url: false }
+          }
+        ]
+      },
+      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
     ]
   }
 };

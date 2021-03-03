@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render news card 1`] = `
+<div
+  className="card_0"
+>
+  <div
+    onClick={[Function]}
+  >
+    <p
+      className="container"
+    />
+  </div>
+</div>
+`;
