@@ -4,12 +4,12 @@
 This is sample application which it just shows hacker news data by using React.js and TypeScript.
 
 ## Development
-
+:man_cook:
 | Tools | Version |
 | ------------- | ------------- |
-|  :shamrock:  React.js | 17.0.1 |
-| TypeScript | 4.0.3 |
-| Webpack | 5.0.0 |
+|  :egg:  React.js | 17.0.1 |
+|  :hatching_chick:  TypeScript | 4.0.3 |
+|  :fried_egg:  Webpack | 5.0.0 |
 
 ## Environment
 
@@ -19,7 +19,7 @@ This is sample application which it just shows hacker news data by using React.j
 
 
 ## API
-
+:robot:
 [Hacker News API](https://github.com/HackerNews/API)
 
 ## Getting started
