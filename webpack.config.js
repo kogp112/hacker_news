@@ -16,7 +16,7 @@ module.exports = {
     compress: true,
     hot: true,
     host: "localhost",
-    port: 3000,
+    port: 5000,
     publicPath: "/"
   },
   resolve: {
